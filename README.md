@@ -31,6 +31,12 @@ I created this repo to:
 
   On-Demand delivery of it resources over the internet with pay-as-you-go pricing.
 
+   Stop guessing capacity: we can dynamically increase the storage or any other services by capacity anytime.
+   Stop spending money to run and maintain data centers
+   Go global in minutes: we can use it from anyuwhere in the world just by changing aws region.
+  Trade fixed expense for variable expense: By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
+
+
 ## Resources:
 - AWS documentation
 - AWS Skill builder (course enrolled)
