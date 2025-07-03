@@ -39,6 +39,14 @@ Go global in minutes: we can use it from anyuwhere in the world just by changing
 Trade fixed expense for variable expense: By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
 
 
+Interacting with AWS services
+
+All interactions with services are powered by APIs. You can access these APIs through three primary methods: the AWS Management Console, the AWS CLI, or the AWS SDK. Let's review these methods.
+
+![image](https://github.com/user-attachments/assets/4624da19-fe28-4727-93c4-7730957930c5)
+
+
+
 ## Resources:
 - AWS documentation
 - AWS Skill builder (course enrolled)
