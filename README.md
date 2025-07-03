@@ -10,6 +10,7 @@ I created this repo to:
   
 # Week 1: Introduction to Cloud
 - Learned about different cloud deployment types
+- - Learned what is cloud computing and its benefits
   
   Cloud-based deployment : Applications and services are hosted on cloud infrastructure (e.g., AWS, Azure, GCP) and accessed over the internet.
   
@@ -26,8 +27,7 @@ I created this repo to:
 | Maintenance | Provider-managed             | Organization-managed | Shared                         |
 | Best For    | Fast, cost-effective scaling | High-security needs  | Balanced flexibility & control |
 
-  
-- Learned what is cloud computing and its benefits
+
 
   On-Demand delivery of it resources over the internet with pay-as-you-go pricing.
   
@@ -38,8 +38,8 @@ Stop spending money to run and maintain data centers
 Go global in minutes: we can use it from anyuwhere in the world just by changing aws region.
 Trade fixed expense for variable expense: By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
 
-
-Interacting with AWS services
+# Week 2: Interacting with AWS services
+--> Launched an amazon EC2 Instance for first time in AWS Console
 
 All interactions with services are powered by APIs. You can access these APIs through three primary methods: the AWS Management Console, the AWS CLI, or the AWS SDK. Let's review these methods.
 
