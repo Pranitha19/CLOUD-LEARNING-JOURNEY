@@ -71,6 +71,8 @@ Amazon Machine Images:
 
 An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
 
+An AMI is a pre-configured virtual machine image that contains the operating system, application server, and applications. This helps to launch EC2 instances quickly with the desired software and settings.
+
 ![image](https://github.com/user-attachments/assets/a886ca5c-018c-4435-a85d-e61910b87c32)
 
 Three ways to use AMIs
