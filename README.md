@@ -45,7 +45,9 @@ All interactions with services are powered by APIs. You can access these APIs th
 
 ![image](https://github.com/user-attachments/assets/4624da19-fe28-4727-93c4-7730957930c5)
 
+Compute and shared responsibility
 
+The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
 
 ## Resources:
 - AWS documentation
