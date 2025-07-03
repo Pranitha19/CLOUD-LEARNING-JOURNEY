@@ -39,7 +39,10 @@ Go global in minutes: we can use it from anyuwhere in the world just by changing
 Trade fixed expense for variable expense: By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
 
 # Week 2: Interacting with AWS services
---> Launched an amazon EC2 Instance for first time in AWS Console
+--> Launched an amazon EC2 Instance for first time in AWS Console 
+--->To launch an EC2 instance for a web server, configure the AMI to define the operating system and software; select the instance type to allocate CPU, memory, and storage; and set up storage options, including the type and size of the volume.
+
+Load balancing, permissions, and instance termination behavior are not required when launching a basic Amazon EC2 web server.
 
 All interactions with services are powered by APIs. You can access these APIs through three primary methods: the AWS Management Console, the AWS CLI, or the AWS SDK. Let's review these methods.
 
