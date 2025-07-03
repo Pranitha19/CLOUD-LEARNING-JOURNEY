@@ -45,6 +45,20 @@ All interactions with services are powered by APIs. You can access these APIs th
 
 ![image](https://github.com/user-attachments/assets/4624da19-fe28-4727-93c4-7730957930c5)
 
+The AWS Management Console is a web interface for managing AWS services, offering quick access to services, search functionality, and simplified workflows. With the mobile app, you monitor resources, view alarms, and check billing, supporting multiple logged-in identities at once.
+Good for: Users who prefer a visual, easy-to-use interface for managing and configuring AWS services
+
+With the AWS CLI, you manage multiple AWS services directly from the command line across Windows, macOS, and Linux. You can automate tasks through scripts, such as launching EC2 instances.
+Good for: Advanced users and developers who need to automate tasks, script actions, and manage AWS resources efficiently from the command line
+
+The AWS SDK simplifies integrating AWS services into your applications by providing APIs for various programming languages. AWS offers documentation and sample code for languages like C++, Java, and .NET to help you get started.
+Good for: Developers looking to integrate AWS services into their applications using language-specific APIs
+
+The AWS CLI enables automation through scripting, which is more efficient and reduces manual errors compared to the console.
+
+The customer handles the operating system, networking, and applications on the EC2 instances. AWS manages the hardware.
+
+
 Compute and shared responsibility
 
 The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
