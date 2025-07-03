@@ -62,12 +62,12 @@ The AWS CLI enables automation through scripting, which is more efficient and re
 The customer handles the operating system, networking, and applications on the EC2 instances. AWS manages the hardware.
 
 
-Compute and shared responsibility
+---> Compute and shared responsibility
 
 The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
 
 
-Amazon Machine Images:
+---> Amazon Machine Images:
 
 An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
 
@@ -75,11 +75,35 @@ An AMI is a pre-configured virtual machine image that contains the operating sys
 
 ![image](https://github.com/user-attachments/assets/a886ca5c-018c-4435-a85d-e61910b87c32)
 
-Three ways to use AMIs
+--->  Three ways to use AMIs
 First, you can create your own by building a custom AMI with specific configurations and software tailored to your needs. Second, you can use pre-configured AWS AMIs, which are set up for common operating systems and software. 
 Lastly, you can purchase AMIs from the AWS Marketplace, where third-party vendors offer specialized software designed for specific use cases.
 
 ![image](https://github.com/user-attachments/assets/ff844107-e1e6-4a86-be79-a77b9f21238e)
+
+-->  AWS pricing options
+
+On-Demand Instances:
+Pay only for the compute capacity you consume with no upfront payments or long-term commitments required.
+
+Reserved Instances:
+Get a savings of up to 75 percent by committing to a 1-year or 3-year term for predictable workloads using specific instance families and AWS Regions.
+
+Spot Instances:
+Bid on spare compute capacity at up to 90 percent off the On-Demand price, with the flexibility to be interrupted when AWS reclaims the instance.
+
+Savings Plans:
+Save up to 72 percent across a variety of instance types and services by committing to a consistent usage level for 1 or 3 years.
+
+Dedicated Hosts:
+Reserve an entire physical server for your exclusive use. This option offers full control and is ideal for workloads with strict security or licensing needs.
+
+Dedicated Instances:
+Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
+
+
+
+
 
 ## Resources:
 - AWS documentation
