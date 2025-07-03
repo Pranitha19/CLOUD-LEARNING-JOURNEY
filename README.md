@@ -63,6 +63,19 @@ Compute and shared responsibility
 
 The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
 
+
+Amazon Machine Images:
+
+An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
+
+![image](https://github.com/user-attachments/assets/a886ca5c-018c-4435-a85d-e61910b87c32)
+
+Three ways to use AMIs
+First, you can create your own by building a custom AMI with specific configurations and software tailored to your needs. Second, you can use pre-configured AWS AMIs, which are set up for common operating systems and software. 
+Lastly, you can purchase AMIs from the AWS Marketplace, where third-party vendors offer specialized software designed for specific use cases.
+
+![image](https://github.com/user-attachments/assets/ff844107-e1e6-4a86-be79-a77b9f21238e)
+
 ## Resources:
 - AWS documentation
 - AWS Skill builder (course enrolled)
