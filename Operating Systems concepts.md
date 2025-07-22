@@ -14,7 +14,8 @@ Protection and Security :
 
 
 What is an Operating System and What Does it Do?
-  OS is software that acts as an intermediary between users and computer hardware.
+
+OS is software that acts as an intermediary between users and computer hardware.
 Functions:
 Process Management
 Memory Management
