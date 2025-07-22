@@ -266,9 +266,9 @@ Suppose that the processes arrive in the order: P1 , P2 , P3
 
 The Gantt Chart for the schedule is:
 
-0          24           27          30
+    0            24           27          30
 
-     P1           P2           P3
+           P1           P2           P3
 
 Waiting time for P1 = 0; P2 = 24; P3 = 27
 
@@ -301,9 +301,9 @@ P4                 5.0                      3
 
 SJF scheduling chart:
 
- 0       3        9         16        24
+    0       3        9         16        24
 
-    P4       P1       P3        P2
+        P4       P1       P3        P2
 
 
 Average waiting time = (3 + 16 + 9 + 0) / 4 = 7
@@ -337,9 +337,9 @@ P5              5             2
 
 Priority scheduling Gantt Chart:
 
-0        1         6        16        18       19
+    0        1         6        16        18       19
 
-    P2        P5        P1       P3        P5
+        P2        P5        P1       P3        P5
     
 Average waiting time = 8.2 msec
 
@@ -365,9 +365,9 @@ P3            3
 
 The Gantt chart is:
 
-0       4       7      10      14     18       22      26       30
+    0       4       7      10      14     18       22      26       30
 
-    P1      P2      P3      P1      P1      P1      P1      P1
+        P1      P2      P3      P1      P1      P1      P1      P1
 
 Typically, higher average turnaround than SJF, but better response
 
