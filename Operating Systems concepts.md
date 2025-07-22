@@ -22,3 +22,10 @@ Memory Management
 File System Management
 I/O Management
 Security and Protection
+
+
+
+Four Components of a Computer System
+
+https://www.google.com/imgres?q=Four%20Components%20of%20a%20Computer%20System&imgurl=https%3A%2F%2Fs3.studylib.net%2Fstore%2Fdata%2F008778955_1-168e72937b4edc2b2dd4888b8fecbeab.png&imgrefurl=https%3A%2F%2Fstudylib.net%2Fdoc%2F8778955%2Ffour-components-of-a-computer-system&docid=a1CwAbRYNRFbGM&tbnid=pi2nshZKuKqufM&vet=12ahUKEwiBpODv19COAxXsmGoFHTW1EnYQM3oECBwQAA..i&w=1024&h=791&hcb=2&ved=2ahUKEwiBpODv19COAxXsmGoFHTW1EnYQM3oECBwQAA<img width="256" height="197" alt="image" src="https://github.com/user-attachments/assets/e04e8906-7449-4740-bcf4-dd0fc41fad8d" />
+
