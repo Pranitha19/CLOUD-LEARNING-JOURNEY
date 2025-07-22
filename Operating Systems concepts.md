@@ -13,7 +13,7 @@ Protection and Security :
 #  Security: Protects the system from external threats like malware, unauthorized access, and attacks.
 
 
-# What is an Operating System and What Does it Do?
+##  What is an Operating System and What Does it Do?
 
 OS is a resource allocator - Manages all resources
 
