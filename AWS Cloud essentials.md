@@ -70,7 +70,8 @@ image
 
 ---> Three ways to use AMIs First, you can create your own by building a custom AMI with specific configurations and software tailored to your needs. Second, you can use pre-configured AWS AMIs, which are set up for common operating systems and software. Lastly, you can purchase AMIs from the AWS Marketplace, where third-party vendors offer specialized software designed for specific use cases.
 
-image
+<img width="1680" height="844" alt="image" src="https://github.com/user-attachments/assets/b760f01b-c935-4097-895e-c8f9c22575b7" />
+
 
 --> AWS pricing options
 
