@@ -44,48 +44,54 @@ The AWS CLI enables automation through scripting, which is more efficient and re
 
 The customer handles the operating system, networking, and applications on the EC2 instances. AWS manages the hardware.
 
----> # Compute and shared responsibility model
+ # Compute and shared responsibility model
 
-The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
+    The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
 
 service characteristics and security
 
 # IaaS:
-  Customers has more flexibility over configuring networking and storage. 
-  customer is responsible for more aspects of security. customer configures the access control. Example services managed by customer are Amazon EC2, Amazon VPC, Amazon EBS.
+    Customers has more flexibility over configuring networking and storage. 
+    customer is responsible for more aspects of security. customer configures the access control. Example services managed by customer are Amazon EC2, Amazon VPC, Amazon EBS.
 # PaaS:
-  Customer does not need to manage the underlying indrastructure. 
-  AWS manage the operating System, Database patching, firewall configuration and disaster recovery. Customers can focus more on managing code or data. Example services provided by AWS are amazon Lambda, Amazon RDS and AWS Elastic Beanstalk.
+    Customer does not need to manage the underlying indrastructure. 
+    AWS manage the operating System, Database patching, firewall configuration and disaster recovery. Customers can focus more on managing code or data. Example services provided by AWS are amazon Lambda, Amazon RDS and AWS Elastic Beanstalk.
 # Saas:
-  Software is centrally hosted. Liscensed on a subscription model or pay-as-you-go basis. 
-  Services are typically accesed by a web browser or mobile app or API. customers do  not need to manage the infrastucture that supports the service.
-  Examples of Saas are AWS trusted advisor, AWS shield, Amazon Chime.
+    Software is centrally hosted. Liscensed on a subscription model or pay-as-you-go basis. 
+    Services are typically accesed by a web browser or mobile app or API. customers do  not need to manage the infrastucture that supports the service.
+    Examples of Saas are AWS trusted advisor, AWS shield, Amazon Chime.
+  
 ---> Amazon Machine Images:
 
-An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
+    An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
 
-An AMI is a pre-configured virtual machine image that contains the operating system, application server, and applications. This helps to launch EC2 instances quickly with the desired software and settings.
+    An AMI is a pre-configured virtual machine image that contains the operating system, application server, and applications. This helps to launch EC2 instances quickly with the desired software and settings.
 
-image
-
----> Three ways to use AMIs First, you can create your own by building a custom AMI with specific configurations and software tailored to your needs. Second, you can use pre-configured AWS AMIs, which are set up for common operating systems and software. Lastly, you can purchase AMIs from the AWS Marketplace, where third-party vendors offer specialized software designed for specific use cases.
 
 <img width="1680" height="844" alt="image" src="https://github.com/user-attachments/assets/b760f01b-c935-4097-895e-c8f9c22575b7" />
 
+---> Three ways to use AMIs 
+                           
+    First, you can create your own by building a custom AMI with specific configurations and software tailored to your needs. 
+    Second, you can use pre-configured AWS AMIs, which are set up for common operating systems and software. 
+    Lastly, you can purchase AMIs from the AWS Marketplace, where third-party vendors offer specialized software designed for specific use cases.
 
---> AWS pricing options
 
-On-Demand Instances: Pay only for the compute capacity you consume with no upfront payments or long-term commitments required.
+<img width="1680" height="641" alt="image" src="https://github.com/user-attachments/assets/287f6b87-439e-460c-87fe-25fb36e1d8eb" />
 
-Reserved Instances: Get a savings of up to 75 percent by committing to a 1-year or 3-year term for predictable workloads using specific instance families and AWS Regions.
+# AWS pricing options
 
-Spot Instances: Bid on spare compute capacity at up to 90 percent off the On-Demand price, with the flexibility to be interrupted when AWS reclaims the instance.
+    On-Demand Instances: Pay only for the compute capacity you consume with no upfront payments or long-term commitments required.
 
-Savings Plans: Save up to 72 percent across a variety of instance types and services by committing to a consistent usage level for 1 or 3 years.
+    Reserved Instances: Get a savings of up to 75 percent by committing to a 1-year or 3-year term for predictable workloads using specific instance families and AWS Regions.
 
-Dedicated Hosts: Reserve an entire physical server for your exclusive use. This option offers full control and is ideal for workloads with strict security or licensing needs.
+    Spot Instances: Bid on spare compute capacity at up to 90 percent off the On-Demand price, with the flexibility to be interrupted when AWS reclaims the instance.
 
-Dedicated Instances: Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
+    Savings Plans: Save up to 72 percent across a variety of instance types and services by committing to a consistent usage level for 1 or 3 years.
+
+    Dedicated Hosts: Reserve an entire physical server for your exclusive use. This option offers full control and is ideal for workloads with strict security or licensing needs.
+
+    Dedicated Instances: Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
 
 # Resources:
 AWS documentation
