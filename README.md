@@ -62,10 +62,22 @@ The AWS CLI enables automation through scripting, which is more efficient and re
 The customer handles the operating system, networking, and applications on the EC2 instances. AWS manages the hardware.
 
 
----> Compute and shared responsibility
+---> # Compute and shared responsibility model
 
 The AWS Shared Responsibility Model outlines the division of duties between the customer and AWS. AWS handles the security of the cloud (hardware and infrastructure), whereas the customer is responsible for security in the cloud (applications, data, and access control).
 
+service characteristics and security
+
+# IaaS: 
+      Customers has more flexibility over configuring networking and storage. 
+      customer is responsible for more aspects of security. customer configures the access control. Example services managed by customer are Amazon EC2, Amazon VPC, Amazon EBS.
+# PaaS: 
+      Customer does not need to manage the underlying indrastructure. 
+      AWS manage the operating System, Database patching, firewall configuration and disaster recovery. Customers can focus more on managing code or data. Example services provided by AWS are amazon Lambda, Amazon RDS and AWS Elastic Beanstalk.
+# Saas: 
+      Software is centrally hosted. Liscensed on a subscription model or pay-as-you-go basis. 
+      Services are typically accesed by a web browser or mobile app or API. customers do  not need to manage the infrastucture that supports the service.
+      Examples of Saas are AWS trusted advisor, AWS shield, Amazon Chime.
 
 ---> Amazon Machine Images:
 
@@ -100,6 +112,7 @@ Reserve an entire physical server for your exclusive use. This option offers ful
 
 Dedicated Instances:
 Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
+
 
 
 
