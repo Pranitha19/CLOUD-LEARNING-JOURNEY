@@ -31,7 +31,8 @@ Load balancing, permissions, and instance termination behavior are not required 
 
 All interactions with services are powered by APIs. You can access these APIs through three primary methods: the AWS Management Console, the AWS CLI, or the AWS SDK. Let's review these methods.
 
-image
+<img width="1680" height="439" alt="image" src="https://github.com/user-attachments/assets/35f64074-c98c-4565-8456-66c20fb5c4f4" />
+
 
 The AWS Management Console is a web interface for managing AWS services, offering quick access to services, search functionality, and simplified workflows. With the mobile app, you monitor resources, view alarms, and check billing, supporting multiple logged-in identities at once. Good for: Users who prefer a visual, easy-to-use interface for managing and configuring AWS services
 
