@@ -123,6 +123,16 @@ Manage federated users and their permissions: You can enable identity federation
 
 Worked on lab2 with precreated users and groups(with policies) and all users username and passwords.
 
+Explored pre-created IAM users and groups
+
+Inspected IAM policies as applied to the pre-created groups
+
+Followed a real-world scenario, adding users to groups with specific capabilities enabled
+
+Located and used the IAM sign-in URL
+
+Experimented with the effects of policies on service access
+
 
  <img width="2200" height="1100" alt="image" src="https://github.com/user-attachments/assets/007f1f73-d5c6-41b4-9706-131753371918" />
  
