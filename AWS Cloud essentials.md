@@ -28,8 +28,10 @@ Hybrid deployment : A mix of cloud and on-premises infrastructure working togeth
     Trade fixed expense for variable expense: By using the AWS Cloud, businesses can transition from fixed investments to variable costs. 
     With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
 
-# Week 2: Interacting with AWS services(Lab 1):
---> Launched an amazon EC2 Instance for first time in AWS Console --->To launch an EC2 instance for a web server, configure the AMI to define the operating system and software; 
+# Week 2: Launching an EC2 Instance (Lab 1):
+
+I have Launched an amazon EC2 Instance for first time in AWS Console.
+To launch an EC2 instance for a web server, configure the AMI to define the operating system and software; 
 select the instance type to allocate CPU, memory, and storage; and set up storage options, including the type and size of the volume.
 
 Load balancing, permissions, and instance termination behavior are not required when launching a basic Amazon EC2 web server.
