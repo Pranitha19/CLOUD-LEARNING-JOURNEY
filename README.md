@@ -25,4 +25,4 @@
 ## Resources:
 - AWS documentation
 - AWS Skill builder (course enrolled)
-  
+- AWS Academy
