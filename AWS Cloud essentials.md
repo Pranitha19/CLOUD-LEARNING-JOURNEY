@@ -103,7 +103,10 @@ On-Demand Instances: Pay only for the compute capacity you consume with no upfro
 
 Dedicated Instances: Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
 
-# AWS Identity and Access Management
+# Week 4: AWS Identity and Access Management
+
+AWS Identity and Access Management (IAM) is a web service that enables Amazon Web Services (AWS) customers to manage users and user permissions in AWS. With IAM, you can centrally manage users, security credentials such as access keys, and permissions that control which AWS resources users can access.
+
 
 AWS Identity and Access Management (IAM) can be used to:
 
@@ -113,6 +116,23 @@ Manage IAM Roles and their permissions: An IAM Role is similar to a User, in tha
 
 Manage federated users and their permissions: You can enable identity federation to allow existing users in your enterprise to access the AWS Management Console, to call AWS APIs and to access resources, without the need to create an IAM User for each identity.
 
+
+# Lab 2: Introduction to AWS IAM
+
+Worked on lab2 with precreated users and groups(with policies) and all users username and passwords.
+
+
+ <img width="2200" height="1100" alt="image" src="https://github.com/user-attachments/assets/007f1f73-d5c6-41b4-9706-131753371918" />
+ 
+
+TASK 1 - Added user-1 to S3-Support group	
+TASK 2 - Added user-2 to EC2-Support group	
+TASK 3 - Added user-3 to EC2-Admin group	
+TASK 4 - user-1 logged in	
+TASK 5 - user-2 logged in	
+TASK 6 - user-2 ec2 stop instance attempt
+TASK 7 - user-3 logged in	
+TASK 8 - user-3 EC2 stop instance attempt	
 
 # Resources:
 AWS documentation
