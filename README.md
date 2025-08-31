@@ -1,7 +1,9 @@
 # CLOUD-LEARNING-JOURNEY
 
 
-# Welcome to my personal learning journal! This repository tracks my progress as I learn and grow in the field of Cloud!
+# Welcome to my personal learning journal! 📝
+
+# This repository tracks my progress as I learn and grow in the field of Cloud!
 
 
 ## Why I Started?
