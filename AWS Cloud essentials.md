@@ -72,7 +72,7 @@ service characteristics and security
     Services are typically accesed by a web browser or mobile app or API. customers do  not need to manage the infrastucture that supports the service.
     Examples of Saas are AWS trusted advisor, AWS shield, Amazon Chime.
   
----> Amazon Machine Images:
+# Amazon Machine Images:
 
  
  An AMI includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
@@ -128,13 +128,22 @@ Worked on lab2 with precreated users and groups(with policies) and all users use
  
 
 TASK 1 - Added user-1 to S3-Support group	
+
 TASK 2 - Added user-2 to EC2-Support group	
+
 TASK 3 - Added user-3 to EC2-Admin group	
+
 TASK 4 - user-1 logged in	
+
 TASK 5 - user-2 logged in	
+
 TASK 6 - user-2 ec2 stop instance attempt
+
 TASK 7 - user-3 logged in	
+
 TASK 8 - user-3 EC2 stop instance attempt	
+
+
 
 # Resources:
 AWS documentation
