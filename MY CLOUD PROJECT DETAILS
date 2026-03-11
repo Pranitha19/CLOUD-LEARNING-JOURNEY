@@ -1,92 +1,69 @@
-## Campus Events Portal – Serverless Web Application on AWS
+# Campus Events Portal – Serverless Web Application on AWS
 
-## Overview
+## 📋 Overview
 
-# A fully serverless web application deployed on AWS that allows students to browse campus events, 
-register for events, and receive notifications. The system is designed using cloud-native 
-architecture to ensure scalability, security, and high availability.
+A fully serverless web application deployed on AWS that allows students to browse campus events, register for events, and receive notifications. The system is designed using cloud-native architecture to ensure **scalability**, **security**, and **high availability**.
 
-## Key Features
+---
 
-Browse and explore campus events through a web interface
+## ✨ Key Features
 
-Online event registration system for students
+- 🎯 Browse and explore campus events through an intuitive web interface
+- 📝 Online event registration system for students
+- 🔔 Automated event notification system
+- 🔐 Secure authentication and access control
+- ⚡ Scalable serverless architecture using AWS services
 
-Automated event notification system
+---
 
-Secure authentication and access control
+## 🏗️ Technical Highlights
 
-Scalable serverless architecture using AWS services
+### Cloud Architecture
+- Designed and deployed a fully **serverless** web application architecture on AWS
+- Implemented **event-driven** backend using AWS Lambda
+- Built **REST APIs** using Amazon API Gateway
 
-# Technical Highlights 
+### Data Management
+- Stored and managed event data using **Amazon DynamoDB**
+- Implemented efficient **CRUD operations** for event registration
 
-## Cloud Architecture
+### Frontend Hosting
+- Hosted static frontend website on **Amazon S3**
+- Distributed globally using **Amazon CloudFront CDN** for improved performance
 
-Designed and deployed a fully serverless web application architecture on AWS
+### Security
+- Implemented secure authentication using **Amazon Cognito**
+- Managed permissions and roles using **AWS IAM**
 
-Implemented event-driven backend using AWS Lambda
+### Notifications
+- Integrated **Amazon SNS** to send event registration notifications to users
 
-Built REST APIs using Amazon API Gateway
+### Domain & Networking
+- Configured custom domain using **Amazon Route 53**
 
-##Data Management
+---
 
-Stored and managed event data using Amazon DynamoDB
+## 🛠️ Architecture Components
 
-Implemented efficient CRUD operations for event registration
+| Service | Purpose |
+|---------|---------|
+| **Amazon S3** | Static website hosting |
+| **Amazon CloudFront** | Content delivery network |
+| **Amazon API Gateway** | REST API layer |
+| **AWS Lambda** | Serverless backend logic |
+| **Amazon DynamoDB** | NoSQL database |
+| **Amazon Cognito** | User authentication |
+| **Amazon SNS** | Notification service |
+| **AWS IAM** | Security and access control |
+| **Amazon Route 53** | Domain management |
 
-## Frontend Hosting
+---
 
-Hosted static frontend website on Amazon S3
+## 💡 Skills Demonstrated
 
-Distributed globally using Amazon CloudFront CDN for improved performance
-
-## Security
-
-Implemented secure authentication using Amazon Cognito
-
-Managed permissions and roles using AWS IAM
-
-## Notifications
-
-Integrated Amazon SNS to send event registration notifications to users
-
-##Domain and Networking
-
-Configured custom domain using Amazon Route 53
-
-
-## Architecture Components
-
-The system uses the following AWS services:
-
-Amazon S3 – Static website hosting
-
-Amazon CloudFront – Content delivery network
-
-Amazon API Gateway – REST API layer
-
-AWS Lambda – Serverless backend logic
-
-Amazon DynamoDB – NoSQL database
-
-Amazon Cognito – User authentication
-
-Amazon SNS – Notification service
-
-AWS IAM – Security and access control
-
-Amazon Route 53 – Domain management
-
-## Skills Demonstrated
-
-Serverless Architecture
-
-AWS Cloud Deployment
-
-REST API Development
-
-Event-driven systems
-
-Cloud Security and IAM
-
-Scalable Web Application Design
+✅ Serverless Architecture  
+✅ AWS Cloud Deployment  
+✅ REST API Development  
+✅ Event-driven Systems  
+✅ Cloud Security and IAM  
+✅ Scalable Web Application Design
