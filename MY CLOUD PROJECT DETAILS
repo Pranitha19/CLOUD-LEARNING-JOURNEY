@@ -1,12 +1,12 @@
-##Campus Events Portal – Serverless Web Application on AWS
+## Campus Events Portal – Serverless Web Application on AWS
 
-##Overview
+## Overview
 
-#A fully serverless web application deployed on AWS that allows students to browse campus events, 
+# A fully serverless web application deployed on AWS that allows students to browse campus events, 
 register for events, and receive notifications. The system is designed using cloud-native 
 architecture to ensure scalability, security, and high availability.
 
-##Key Features
+## Key Features
 
 Browse and explore campus events through a web interface
 
@@ -18,9 +18,9 @@ Secure authentication and access control
 
 Scalable serverless architecture using AWS services
 
-#Technical Highlights 
+# Technical Highlights 
 
-##Cloud Architecture
+## Cloud Architecture
 
 Designed and deployed a fully serverless web application architecture on AWS
 
@@ -34,19 +34,19 @@ Stored and managed event data using Amazon DynamoDB
 
 Implemented efficient CRUD operations for event registration
 
-##Frontend Hosting
+## Frontend Hosting
 
 Hosted static frontend website on Amazon S3
 
 Distributed globally using Amazon CloudFront CDN for improved performance
 
-##Security
+## Security
 
 Implemented secure authentication using Amazon Cognito
 
 Managed permissions and roles using AWS IAM
 
-##Notifications
+## Notifications
 
 Integrated Amazon SNS to send event registration notifications to users
 
@@ -55,7 +55,7 @@ Integrated Amazon SNS to send event registration notifications to users
 Configured custom domain using Amazon Route 53
 
 
-##Architecture Components
+## Architecture Components
 
 The system uses the following AWS services:
 
@@ -77,7 +77,7 @@ AWS IAM – Security and access control
 
 Amazon Route 53 – Domain management
 
-##Skills Demonstrated
+## Skills Demonstrated
 
 Serverless Architecture
 
