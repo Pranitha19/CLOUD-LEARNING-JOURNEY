@@ -3,7 +3,8 @@
 
 # Welcome to my personal learning journal! 📝
 
-# This repository tracks my progress as I learn and grow in the field of Cloud and share my project details at the end!
+# This repository tracks my progress as I learn and grow in the field of Cloud
+# Project details at the end!
 
 
 ## Why I Started?
